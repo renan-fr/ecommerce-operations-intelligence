@@ -90,24 +90,122 @@ Esta análise é direcionada para:
 
 ---
 
-## 6. Indicadores Esperados
+## 6. Perguntas Analíticas e Indicadores de Apoio
 
+A análise não será baseada apenas em valores absolutos dos indicadores. Os KPIs serão utilizados como ponto de partida para investigar evolução temporal, comportamento por categoria, desempenho por região, impacto operacional e relação com a satisfação do cliente.
+
+### 6.1 Crescimento e comportamento da operação
+
+Perguntas de negócio:
+- Como o volume de pedidos evolui ao longo dos meses?
+- Existem meses com pico ou queda relevante de vendas?
+- O crescimento do volume de pedidos acompanha o crescimento do valor transacionado?
+- O ticket médio varia ao longo do tempo?
+- A operação cresce de forma saudável ou com aumento de problemas operacionais?
+
+Indicadores de apoio:
 - Quantidade de pedidos
 - Quantidade de clientes únicos
 - Valor total transacionado
 - Ticket médio
+- Pedidos por mês
+- Receita por mês
+
+---
+
+### 6.2 Receita, categorias e mix de produtos
+
+Perguntas de negócio:
+- Quais categorias mais contribuem para o valor vendido?
+- As categorias com maior receita também possuem boa avaliação?
+- Existem categorias que vendem muito, mas geram mais atraso ou insatisfação?
+- O mix de produtos muda ao longo do tempo?
+- Quais categorias deveriam receber maior atenção operacional?
+
+Indicadores de apoio:
+- Valor vendido por categoria
+- Quantidade de pedidos por categoria
+- Ticket médio por categoria
+- Avaliação média por categoria
+- Percentual de atraso por categoria
+
+---
+
+### 6.3 Frete e impacto na experiência
+
+Perguntas de negócio:
+- O valor médio do frete varia por categoria, região ou período?
+- O frete representa quanto do valor total do pedido?
+- Pedidos com maior participação do frete recebem avaliações piores?
+- Existem categorias ou regiões onde o frete pode estar prejudicando a competitividade?
+- O custo de frete está associado a maior atraso ou menor satisfação?
+
+Indicadores de apoio:
 - Valor médio de frete
 - Participação média do frete no pedido
-- Nota média de avaliação
-- Percentual de avaliações ruins
+- Frete médio por estado
+- Frete médio por categoria
+- Nota média por faixa de frete
+
+---
+
+### 6.4 Entrega e eficiência operacional
+
+Perguntas de negócio:
+- Qual percentual de pedidos é entregue com atraso?
+- O atraso piora em determinados meses?
+- Quais estados concentram maior percentual de atraso?
+- Quais categorias apresentam maior risco logístico?
+- O tempo médio de entrega está melhorando ou piorando ao longo do tempo?
+- Existem períodos de maior volume em que a entrega perde eficiência?
+
+Indicadores de apoio:
 - Percentual de pedidos entregues com atraso
 - Dias médios de atraso
 - Tempo médio de entrega
-- Pedidos por status
-- Valor vendido por categoria
 - Atraso por estado
+- Atraso por categoria
+- Tempo médio de entrega por mês
+
+---
+
+### 6.5 Satisfação do cliente
+
+Perguntas de negócio:
+- Qual é a nota média dos pedidos?
+- A satisfação muda ao longo dos meses?
+- Pedidos atrasados recebem notas menores?
+- Quais categorias geram mais avaliações ruins?
+- Quais fatores parecem mais associados à insatisfação: atraso, frete, categoria, região ou vendedor?
+- A empresa está vendendo mais às custas de uma pior experiência?
+
+Indicadores de apoio:
+- Nota média de avaliação
+- Percentual de avaliações ruins
 - Avaliação média por categoria
-- Performance por vendedor
+- Avaliação média por estado
+- Avaliação média por status de atraso
+- Avaliação média por faixa de frete
+
+---
+
+### 6.6 Performance dos vendedores
+
+Perguntas de negócio:
+- Quais vendedores concentram maior volume de pedidos?
+- Quais vendedores geram maior valor vendido?
+- Quais vendedores possuem maior taxa de atraso?
+- Quais vendedores possuem pior avaliação média?
+- Existem vendedores com alto volume, mas baixa qualidade operacional?
+- Quais vendedores deveriam ser priorizados para acompanhamento?
+
+Indicadores de apoio:
+- Pedidos por vendedor
+- Valor vendido por vendedor
+- Ticket médio por vendedor
+- Percentual de atraso por vendedor
+- Nota média por vendedor
+- Percentual de avaliações ruins por vendedor
 
 ---
 

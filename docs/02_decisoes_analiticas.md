@@ -23,3 +23,14 @@ A modelagem própria facilita o entendimento da estrutura dos dados, apoia a fut
 Artefatos gerados:
 - `models/raw_olist_model.dbml`: arquivo DBML com a estrutura da modelagem bruta.
 - `images/raw_olist_model.png`: imagem exportada do modelo para visualização e documentação.
+
+## Decisão 003 — Utilizar PostgreSQL local com carga automatizada dos dados brutos
+
+Decisão:
+O projeto utilizará um banco PostgreSQL local, criado manualmente pelo pgAdmin, com scripts SQL versionados para criação dos schemas e das tabelas brutas. A carga dos arquivos CSV será feita por um script Python configurado por variáveis de ambiente.
+
+Motivo:
+Essa abordagem mantém o ambiente simples, direto e replicável, sem adicionar camadas como Docker neste primeiro momento. Os scripts SQL garantem a criação padronizada da estrutura do banco, enquanto o script Python automatiza a carga dos dados e permite repetir o processo em diferentes computadores.
+
+Impacto:
+A decisão facilita a validação dos dados brutos, melhora a rastreabilidade do projeto e cria uma base sólida para as próximas etapas de tratamento, modelagem analítica e construção das views para o Power BI.
